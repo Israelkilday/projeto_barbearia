@@ -9,6 +9,17 @@ form label, form legend {
 	margin: 0 0 10px;
 }
 
+fieldset {
+	border: 1px solid;
+	margin-bottom: 1rem;
+	padding: 2rem;
+	text-justify: initial;
+}
+
+.caixa_de_horario {
+	text-align: center;
+}
+
 .input-padrao {
 	display: block;
 	margin: 0 0 20px;
