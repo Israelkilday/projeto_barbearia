@@ -1,0 +1,178 @@
+body {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+header {
+	background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav ul {
+	display: flex;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.banner {
+	width: 100%;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	padding: 30px;
+	clear: left;
+}
+
+.principal {
+	background: #CCCCCC;
+	margin: 0 auto;
+	padding: 30px;
+	width: 940px;
+}
+
+p {
+	margin: 0 0 1em;
+	text-align: center;
+  }
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE,#888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	font-weight: 600;
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 20px;
+	background: #888888;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	font-style: italic;
+	font-weight: bold;
+	list-style: none;
+	line-height: 1.5;
+}
+
+.itens:before {
+	content: "★";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto 0;
+}
+
+footer {
+	background: url("/imagens/fundo-tumblr-preto7-1024x640.webp");
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

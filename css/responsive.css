@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;		
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	 nav {
+		position: relative;
+		right: 10%;
+		top: 30%;
+	} 
+
+	form {
+	    display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	} 
+
+	.lista-beneficios, .imagem-beneficios, .produtos li {
+		width: 100%;
+	}
+
+	.produtos {		
+	    display: flex;
+	    flex-direction: column;
+	    width: auto;
+	    align-items: center;
+	}
+
+	.input-padrao, .enviar {
+		width: 100%;
+	}
+}
+
+	
