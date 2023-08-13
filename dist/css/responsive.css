@@ -8,28 +8,29 @@
 		right: 7px;
 		top: 30%;
 	} 
-
-	form {
-	    display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
+	
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
-	} 
+	}
 
 	.lista-beneficios, .imagem-beneficios, .produtos li {
 		width: 100%;
 	}
-
+	
 	.produtos {		
-	    display: flex;
-	    flex-direction: column;
+		display: flex;
+		flex-direction: column;
 		margin: 0 5px;
-	    width: auto;
-	    align-items: center;
+		width: auto;
+		align-items: center;
 	}
+	
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
 
 	.input-padrao, .enviar {
 		width: 100%;
